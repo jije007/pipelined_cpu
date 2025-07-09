@@ -1,0 +1,13 @@
+Starting simulation...
+VCD info: dumpfile pipeline_wave.vcd opened for output.
+
+=== Final Register File ===
+R0 =   x
+R1 =  30
+R2 =  10
+R3 =  20
+R4 =   x
+R5 = 240
+R6 =   x
+R7 =   x
+pipelined_cpu_tb.v:62: $finish called at 210000 (1ps)
