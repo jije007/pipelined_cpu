@@ -1,0 +1,132 @@
+$date
+	Wed Jul 09 14:20:37 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$scope module uut $end
+$var wire 1 ! clk $end
+$var wire 1 " reset $end
+$var wire 4 # rt [3:0] $end
+$var wire 4 $ rs [3:0] $end
+$var wire 4 % rd [3:0] $end
+$var wire 4 & opcode [3:0] $end
+$var reg 16 ' EX_WB [15:0] $end
+$var reg 8 ( EX_result [7:0] $end
+$var reg 16 ) ID_EX [15:0] $end
+$var reg 16 * IF_ID [15:0] $end
+$var reg 4 + dest_reg [3:0] $end
+$var integer 32 , pc [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+bx +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+1"
+0!
+$end
+#5000
+1!
+#10000
+0!
+0"
+#15000
+b1 &
+b1 $
+b10 #
+b100 %
+b0 +
+b1 ,
+b1000100100100 *
+1!
+#20000
+0!
+#25000
+b10 &
+b101 %
+b1000100100100 )
+b10 ,
+b10000100100101 *
+1!
+#30000
+0!
+#35000
+b11 &
+b0 #
+b110 %
+b1000100100100 '
+b100 +
+b1111 (
+b10000100100101 )
+b11 ,
+b11000100000110 *
+1!
+#40000
+0!
+#45000
+bx &
+bx $
+bx #
+bx %
+b10000100100101 '
+b101 +
+b101 (
+b11000100000110 )
+b100 ,
+bx *
+1!
+#50000
+0!
+#55000
+b11000100000110 '
+b110 +
+b10100 (
+bx )
+b101 ,
+1!
+#60000
+0!
+#65000
+bx '
+bx +
+b0 (
+b110 ,
+1!
+#70000
+0!
+#75000
+b111 ,
+1!
+#80000
+0!
+#85000
+b1000 ,
+1!
+#90000
+0!
+#95000
+b1001 ,
+1!
+#100000
+0!
+#105000
+b1010 ,
+1!
+#110000
+0!
